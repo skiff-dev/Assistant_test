@@ -7,6 +7,6 @@ setup(name='ANS-Assistant',
     author='Denis Bilokon, Kirill Sheremeta, Denys Zaycev, Dmytro Marchenko, Maria Palona',
     author_email='greenjuiced@gmail.com',
     license='MIT',
-    packages=find_packages(include=['addressbook_classes.py', 'decorators.py']),
+    packages=find_packages(),
     entry_points= {'console_scripts': ['assistant = assistant.addressbook:run']}
           )
